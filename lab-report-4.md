@@ -69,7 +69,7 @@ Since I just ran the tests a couple commands earlier using `bash test.sh`, all I
 
 ![Pushing to repo](step6.png)
 
-*Keys/Commands used: `git add L<tab>.java<enter>`, `git status`, `git commit -m "Fixed index`, `git push`*
+*Keys/Commands used: `git add L<tab>.java<enter>`, `git status<enter>`, `git commit -m "Fixed index<enter>`, `git push<enter>`*
 
 To push to the repo, the first step was to add the changes I made to `ListExamples.java` to the set commits that will be pushed. This is done using `git add <file>`, for which I used bash's autocomplete to type `git add ListExamples.java`. After that, I quickly confirmed that those and only those changes were being committed using `git status`. Once I did that, I committed the changes with `git commit` and added the message `"Fixed index"` to accompany my commit. Finally, I pushed the changes to the remote repository using `git push`.
 
